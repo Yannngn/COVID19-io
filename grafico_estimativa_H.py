@@ -99,7 +99,7 @@ for e in range(27) :
         plt.text(y_pop + 25000, e, str(int(round(y_pop))), color = 'black',  
                      fontsize = 14, horizontalalignment = 'left', verticalalignment = 'center')
         if IFR != 0 :
-            plt.text(250000 + y_est + y_pop, e, str(int(round(y_pop + y_est))), color = (0.1, 0.1, 0.1, 0.7),  
+            plt.text(375000 + y_est + y_pop, e, str(int(round(y_pop + y_est))), color = (0.1, 0.1, 0.1, 0.7),  
                      fontsize = 14, horizontalalignment = 'left', verticalalignment = 'center')
     summ += y_est + y_pop
 
